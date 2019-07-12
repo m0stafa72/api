@@ -1,0 +1,19 @@
+1 - composer require beyondcode/laravel-websockets
+
+
+2 - in config/app.php un coment   ->  App\Providers\BroadcastServiceProvider
+
+3 - composer require pusher/pusher-php-server "~3.0"
+
+4 - in .env   ->   BROADCAST_DRIVER=pusher
+
+5- php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="migrations"
+
+6 - php artisan migrate
+
+7- php artisan vendor:publish --provider="BeyondCode\LaravelWebSockets\WebSocketsServiceProvider" --tag="config"
+
+8 - use this -> https://docs.beyondco.de/laravel-websockets/1.0/basic-usage/pusher.html#requirements
+
+9 install in ui -> npm install --save laravel-echo pusher-js
+
