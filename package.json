@@ -20,7 +20,7 @@
         "webpack": "^4.35.0",
         "@babel/plugin-proposal-class-properties": "^7.4.4",
         "@ishawnwang/withunmounted": "^1.0.1",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "babel": "^6.23.0",
         "canvas-to-blob": "^1.0.0",
         "core-js": "^3.0.1",
